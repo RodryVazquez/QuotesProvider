@@ -10,8 +10,8 @@ public class Preferences {
     SharedPreferences.Editor editor;
     Context context;
     int PRIVATE_MODE = 0;
-    private static final String PREF_NAME = "";
-    private static final String IS_FIRSTTIME = "";
+    private static final String PREF_NAME = "DailyFortune";
+    private static final String IS_FIRSTTIME = "IsFirstTime";
     public static final String UserName = "name";
 
 
