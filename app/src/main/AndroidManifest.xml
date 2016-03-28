@@ -4,8 +4,14 @@
 
     <!-- Permiso para acceder a internet -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <!-- Permiso para verificar el estado de red -->
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- Permiso para escribir en el almacenamiento externo -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
 
     <application
+        android:name=".app.AppController"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
