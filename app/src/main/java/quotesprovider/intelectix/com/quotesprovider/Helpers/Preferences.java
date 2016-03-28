@@ -2,7 +2,10 @@ package quotesprovider.intelectix.com.quotesprovider.Helpers;
 
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.SharedPreferences;
+
+import quotesprovider.intelectix.com.quotesprovider.Login.Login;
 
 public class Preferences {
 
@@ -55,5 +58,17 @@ public class Preferences {
     public void setUserName(String name){
         editor.putString(UserName,name);
         editor.commit();
+    }
+
+    /**
+     * Remueve al usuario
+     */
+    public void removeUser(){
+        editor.clear();
+        editor.commit();
+        Intent intent = new Intent(context, Login.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        context.startActivity(intent);
     }
 }

@@ -3,4 +3,16 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="deePurple50">#EDE7F6</color>
+    <color name="deePurple100">#D1C4E9</color>
+    <color name="deePurple200">#B39DDB</color>
+    <color name="deePurple300">#9575CD</color>
+    <color name="deePurple400">#7E57C2</color>
+    <color name="deePurple500">#673AB7</color>
+    <color name="deePurple600">#5E35B1</color>
+    <color name="deePurple700">#512DA8</color>
+    <color name="deePurple800">#4527A0</color>
+    <color name="deePurple900">#311B92</color>
+
 </resources>
